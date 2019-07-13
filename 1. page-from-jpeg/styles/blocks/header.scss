@@ -1,0 +1,24 @@
+.header {
+    background: url('../img/background.jpg') center center no-repeat;
+    height: rem(200px);
+    width: 100%;
+    background-position: center center;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    position: relative;
+    margin-bottom: rem(48px);   
+}
+
+.logo {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo__img {
+    height: rem(142px);
+}

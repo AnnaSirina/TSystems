@@ -1,0 +1,17 @@
+body {
+    font-size: rem(16px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: rem(984px);
+    margin: 0 auto;
+}
+
+.maincontent {
+    width: 100%;
+}
+
+.aboutus {
+    display: flex;
+}
