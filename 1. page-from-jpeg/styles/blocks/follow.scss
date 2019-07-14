@@ -1,0 +1,12 @@
+.follow__list {
+    list-style-type: none;
+}
+
+.follow__item {
+    display: flex;
+}
+
+.follow__link {
+    font-size: rem(18px);
+    color: $lightblue;
+}

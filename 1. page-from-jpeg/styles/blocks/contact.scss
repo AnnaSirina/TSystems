@@ -1,0 +1,32 @@
+
+.contact {
+    display: flex;
+    font-size: rem(18px);
+    color: $lightgrey;
+}
+
+.contact__name {
+    margin: 0;
+}
+
+.contact__mail {
+    text-decoration: none;
+    color: $lightblue;
+}
+
+.contact__inf {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__img {
+    width: rem(48px);
+    height: rem(48px);
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url("../img/gosling.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: rem(18px);
+}

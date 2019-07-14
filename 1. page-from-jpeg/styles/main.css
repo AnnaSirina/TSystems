@@ -335,7 +335,8 @@ body {
 
 .section__title {
   font-size: 1.3125rem;
-  color: #757575; }
+  color: #757575;
+  margin-bottom: 2.25rem; }
 
 /* blocks */
 .header {
@@ -357,9 +358,13 @@ body {
 .logo__img {
   height: 8.875rem; }
 
+.about {
+  width: 75%; }
+
 .about__desc {
   font-size: 1.125rem;
-  color: #757575; }
+  color: #757575;
+  font-weight: lighter; }
 
 .area__list {
   display: -webkit-box;
@@ -374,8 +379,99 @@ body {
   display: -ms-flexbox;
   display: flex; }
 
+.area__img.purple {
+  background-color: #5A4D99; }
+
+.area__img.green {
+  background-color: #BFCC36; }
+
+.area__img.blue {
+  background-color: #1A587A; }
+
 .sidebar {
-  margin-left: 1.875rem; }
+  margin-left: 1.875rem;
+  width: 25%; }
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.125rem;
+  color: #757575; }
+
+.contact__name {
+  margin: 0; }
+
+.contact__mail {
+  text-decoration: none;
+  color: #009DF2; }
+
+.contact__inf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.contact__img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url("../img/gosling.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 1.125rem; }
+
+.follow__list {
+  list-style-type: none; }
+
+.follow__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.follow__link {
+  font-size: 1.125rem;
+  color: #009DF2; }
+
+.footer {
+  background-color: #f8f8f8; }
+
+.footer__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%; }
+
+.section__header.footer {
+  margin: 0;
+  padding: 0; }
+
+.footer__form {
+  width: 50%; }
+
+.footer__input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px 6px 6px 30px;
+  width: 75%;
+  height: 100%;
+  background-image: url("../img/search.svg");
+  background-repeat: no-repeat;
+  background-position: 6px center;
+  background-size: auto 40%; }
+
+.footer__magnifier {
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .icon-web {
   width: 1.4375rem;
@@ -390,3 +486,7 @@ body {
   width: 4rem;
   height: 4rem;
   fill: #fff; }
+
+.icon-in {
+  width: 1.4375rem;
+  height: 1.5rem; }

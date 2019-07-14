@@ -8,6 +8,14 @@
     display: flex;
 }
 
-.area__img {
-    //background-color: $purple;
+.area__img.purple {
+    background-color: $purple;
+}
+
+.area__img.green {
+    background-color: $green;
+}
+
+.area__img.blue {
+    background-color: $blue;
 }

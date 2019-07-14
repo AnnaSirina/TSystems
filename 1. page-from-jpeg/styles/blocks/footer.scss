@@ -1,0 +1,35 @@
+.footer {
+    background-color: #f8f8f8;
+}
+
+.footer__search {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section__header.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__form {
+    width: 50%;
+}
+.footer__input {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 6px 6px 30px;
+    width: 75%;
+    height: 100%;
+    background-image: url("../img/search.svg");
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    background-size: auto 40%;
+}
+
+.footer__magnifier {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
