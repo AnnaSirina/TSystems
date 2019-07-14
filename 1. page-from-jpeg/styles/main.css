@@ -339,13 +339,10 @@ body {
 
 /* blocks */
 .header {
-  background: url("../img/background.jpg") center center no-repeat;
+  background: url("../img/background.jpg") no-repeat;
   height: 12.5rem;
   width: 100%;
-  background-position: center center;
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
+  background-size: cover;
   position: relative;
   margin-bottom: 3rem; }
 
@@ -364,8 +361,32 @@ body {
   font-size: 1.125rem;
   color: #757575; }
 
-.area {
-  width: 50%; }
+.area__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.area__item {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .sidebar {
-  width: 50%; }
+  margin-left: 1.875rem; }
+
+.icon-web {
+  width: 1.4375rem;
+  height: 1.5rem; }
+
+.icon-culture {
+  width: 4rem;
+  height: 4rem;
+  fill: #fff; }
+
+.icon-hand-shake {
+  width: 4rem;
+  height: 4rem;
+  fill: #fff; }

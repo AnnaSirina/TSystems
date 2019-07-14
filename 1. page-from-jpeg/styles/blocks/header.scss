@@ -1,11 +1,8 @@
 .header {
-    background: url('../img/background.jpg') center center no-repeat;
+    background: url('../img/background.jpg') no-repeat;
     height: rem(200px);
     width: 100%;
-    background-position: center center;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%;
+    background-size: cover;
     position: relative;
     margin-bottom: rem(48px);   
 }
