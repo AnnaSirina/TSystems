@@ -1,11 +1,11 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <symbol id="web" viewBox="0 0 23 24">
-    <g id="#7-Organization-Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="#7-Organization-Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Protected---Profile---S-" transform="translate(-19.000000, -1310.000000)">
             <rect fill="#F8F8F8" x="0" y="0" width="336" height="2771"></rect>
             <g id="Profil" transform="translate(0.000000, 81.000000)">
-                <rect id="Rectangle-7" fill="#FFFFFF" fill-rule="nonzero" x="0" y="37" width="337" height="1439"></rect>
+                <rect id="Rectangle-7" fill="#5A4D99" fill-rule="nonzero" x="0" y="37" width="337" height="1439"></rect>
                 <g id="SocialMedia/Links" transform="translate(18.000000, 1229.000000)" fill="#262626">
                     <g transform="translate(1.000000, 0.000000)" id="Icons/barbecue/solid">
                         <g>
