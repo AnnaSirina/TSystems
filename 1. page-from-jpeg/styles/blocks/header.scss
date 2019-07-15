@@ -1,10 +1,15 @@
 .header {
     background: url('../img/background.jpg') no-repeat;
-    height: rem(200px);
+    min-height: rem(200px);
     width: 100%;
     background-size: cover;
+    background-position: 100% 40%;
     position: relative;
-    margin-bottom: rem(48px);   
+    margin-bottom: rem(48px);  
+
+    @include phones {
+        background-position: 100% 20%;
+    } 
 }
 
 .logo {
@@ -14,8 +19,12 @@
     background-color: white;
     border-radius: 50%;
     overflow: hidden;
+
+    @include tablets {
+        left: 5%;
+    }
 }
 
 .logo__img {
-    height: rem(142px);
+    max-height: rem(142px);
 }

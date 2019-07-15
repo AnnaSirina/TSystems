@@ -1,0 +1,47 @@
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: rem(48px);
+
+    @include phones {
+        margin-top: rem(12px);
+    }
+}
+
+.search__form {
+    width: 50%; 
+    display: flex;
+    justify-content: flex-end; 
+
+    @include phones {
+    width: 100%;
+    } 
+}
+
+.search__input {
+    border: 1px solid black;
+    border-radius: rem(5px);
+    padding: rem(6px) rem(6px) rem(6px) rem(30px);
+    width: 75%;
+    height: 100%;
+    background-image: url("../img/search.svg");
+    background-repeat: no-repeat;
+    background-position: rem(6px) center;
+    background-size: auto 40%;
+    justify-content: flex-end;
+
+    @include tablets {
+    padding: rem(6px) rem(6px) rem(6px) rem(40px);
+    width: 90%;
+    max-height: 75%;
+    }
+    @include phones {
+    width: 100%;
+    padding: rem(6px) rem(6px) rem(6px) rem(25px);
+    background-size: auto 60%;
+    } 
+
+
+}
+

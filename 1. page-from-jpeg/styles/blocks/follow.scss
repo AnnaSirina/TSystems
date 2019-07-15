@@ -1,12 +1,15 @@
 .follow__list {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .follow__item {
     display: flex;
+    margin-bottom: rem(6px); 
 }
 
 .follow__link {
     font-size: rem(18px);
     color: $lightblue;
+    text-decoration: none; 
 }

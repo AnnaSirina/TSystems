@@ -20,8 +20,8 @@
 }
 
 .contact__img {
-    width: rem(48px);
-    height: rem(48px);
+    min-width: rem(48px);
+    min-height: rem(48px);
     border-radius: 50%;
     overflow: hidden;
     background-image: url("../img/gosling.jpg");
