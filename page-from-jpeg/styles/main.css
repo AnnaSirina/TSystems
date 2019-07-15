@@ -471,10 +471,6 @@ body {
   width: 1.4375rem;
   height: 1.5rem; }
 
-.area__img.purple {
-  background-color: #5A4D99;
-  background-position: center center; }
-
 .area__img.green {
   background-color: #BFCC36; }
 
@@ -692,10 +688,9 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.area__icon-web {
+.icon.icon-web {
   width: 1.4375rem;
-  height: 1.5rem;
-  fill: white; }
+  height: 1.5rem; }
 
 .icon-culture {
   width: 4rem;
