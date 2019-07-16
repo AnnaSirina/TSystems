@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="#ffffff">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" fill="#ffffff">
 <defs>
   <style>
     .a {
-    fill: none;
+    fill: #BFCC36;
     }
   </style>
 </defs>

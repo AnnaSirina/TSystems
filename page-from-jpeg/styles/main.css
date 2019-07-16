@@ -692,14 +692,14 @@ body {
   width: 1.4375rem;
   height: 1.5rem; }
 
-.icon-culture {
-  width: 4rem;
-  height: 4rem;
-  fill: #fff; }
+.icon.icon-culture {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: white; }
 
-.icon-hand-shake {
-  width: 4rem;
-  height: 4rem;
+.icon.icon-handshake {
+  width: 1.5rem;
+  height: 1.5rem;
   fill: #fff; }
 
 .icon-in {
