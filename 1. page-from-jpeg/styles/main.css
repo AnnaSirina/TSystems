@@ -471,12 +471,6 @@ body {
   width: 1.4375rem;
   height: 1.5rem; }
 
-.area__img.green {
-  background-color: #BFCC36; }
-
-.area__img.blue {
-  background-color: #1A587A; }
-
 .area__desc {
   margin-left: 0.375rem;
   background-color: #f8f8f8;
@@ -694,11 +688,13 @@ body {
 
 .icon.icon-culture {
   width: 1.5rem;
-  height: 1.5rem; }
+  height: 1.5rem;
+  fill: #BFCC36; }
 
 .icon.icon-handshake {
   width: 1.5rem;
-  height: 1.5rem; }
+  height: 1.5rem;
+  fill: #1A587A; }
 
 .icon-in {
   width: 1.4375rem;
