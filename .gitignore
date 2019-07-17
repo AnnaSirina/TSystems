@@ -1,8 +1,5 @@
 .idea/
 .browsweslistrc
-
-
-node_modules
-src
 3. algorithm
 page-from-jpeg-gulp/src
+page-from-jpeg-gulp/node_modules

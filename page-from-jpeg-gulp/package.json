@@ -1,0 +1,19 @@
+{
+  "name": "page-from-jpeg-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-rm": "^2.0.0",
+    "gulp-sass-glob": "^1.1.0"
+  }
+}
