@@ -1,0 +1,35 @@
+.section__header {
+    font-size: rem(36px);
+    color: $grey;
+    padding: rem(48px) 0 rem(18px) 0;
+
+    @include phones {
+        padding: rem(36px) 0 rem(18px) 0;
+        margin-bottom: 0;
+    }
+}
+
+.section__title {
+    font-size: rem(21px);
+    color: $lightgrey;
+    margin-bottom: rem(36px);
+
+    @include phones {
+        margin-bottom: rem(24px);
+    }
+}
+
+.section__header.footer {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+
+    @include phones {
+        display: none;
+    }
+}
+
+.section__title.follow {
+    margin-bottom: rem(18px);
+    margin-top: rem(48px);
+}

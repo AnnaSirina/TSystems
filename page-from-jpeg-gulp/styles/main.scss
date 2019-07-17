@@ -1,0 +1,17 @@
+/* base layout */
+@import "../styles/layout/normalize";
+@import "../styles/layout/variables.scss";
+@import "../styles/layout/mixins.scss";
+@import "../styles/layout/base.scss";
+@import "../styles/layout/titles.scss";
+
+/* blocks */
+@import "../styles/blocks/header.scss";
+@import "../styles/blocks/about.scss";
+@import "../styles/blocks/area.scss";
+@import "../styles/blocks/sidebar.scss";
+@import "../styles/blocks/contact.scss";
+@import "../styles/blocks/follow.scss";
+@import "../styles/blocks/article.scss";
+@import "../styles/blocks/icons.scss";
+@import "../styles/blocks/search.scss";

@@ -1,0 +1,18 @@
+.aboutus {
+    display: flex;
+}
+
+
+.about {
+    width: 100%;
+}
+
+.about__desc {
+    font-size: rem(18px);
+    color: $lightgrey;
+    font-weight: lighter;
+
+    @include phones {
+        font-size: rem(21px);
+    }
+}

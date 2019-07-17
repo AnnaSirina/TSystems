@@ -1,0 +1,33 @@
+.header {
+    background: url('../img/background.jpg') no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 40%; 
+    margin-bottom: rem(48px);
+
+    @include phones {
+        background-position: 100% 20%;
+    }
+}
+
+.container.container-header {
+    position: relative;
+    min-height: rem(200px);
+}
+
+.logo {
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+
+    @include tablets {
+        left: 5%;
+    }
+}
+
+.logo__img {
+    max-height: rem(142px);
+}
