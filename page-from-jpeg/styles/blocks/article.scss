@@ -125,6 +125,7 @@
 	border-radius: rem(5px);
 	border: 1px solid $orange;
 	padding: rem(6px);
+	cursor: pointer;
 
 	@include phones {
 		display: none;

@@ -402,20 +402,22 @@ body {
 /* blocks */
 .header {
   background: url("../img/background.jpg") no-repeat;
-  min-height: 12.5rem;
   width: 100%;
   background-size: cover;
   background-position: 100% 40%;
-  position: relative;
   margin-bottom: 3rem; }
   @media screen and (max-width: 480px) {
     .header {
       background-position: 100% 20%; } }
 
+.container.container-header {
+  position: relative;
+  min-height: 12.5rem; }
+
 .logo {
   position: absolute;
   top: 75%;
-  left: 15%;
+  left: 0%;
   background-color: white;
   border-radius: 50%;
   overflow: hidden; }
@@ -474,6 +476,7 @@ body {
 .area__desc {
   margin-left: 0.375rem;
   background-color: #f8f8f8;
+  padding: 0.375rem;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -660,7 +663,8 @@ body {
   width: 100%;
   border-radius: 0.3125rem;
   border: 1px solid #FFA500;
-  padding: 0.375rem; }
+  padding: 0.375rem;
+  cursor: pointer; }
   @media screen and (max-width: 480px) {
     .article__more {
       display: none; } }
@@ -688,13 +692,11 @@ body {
 
 .icon.icon-culture {
   width: 1.5rem;
-  height: 1.5rem;
-  fill: #BFCC36; }
+  height: 1.5rem; }
 
 .icon.icon-handshake {
   width: 1.5rem;
-  height: 1.5rem;
-  fill: #1A587A; }
+  height: 1.5rem; }
 
 .icon-in {
   width: 1.4375rem;
@@ -742,7 +744,7 @@ body {
     .search__input {
       padding: 0.375rem 0.375rem 0.375rem 2.5rem;
       width: 90%;
-      max-height: 75%; } }
+      max-height: 100%; } }
   @media screen and (max-width: 480px) {
     .search__input {
       width: 100%;
